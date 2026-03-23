@@ -7,8 +7,12 @@ Ensure that an Apache Derby database is up and running on localhost:50000
 
 Linux:
 
-&emsp;Enter `./run.sh` from CLI in the project directory.
-  
+Type the following commands in the project directory.
+
+&emsp;`chmod u+x run.sh`
+
+&emsp;`./run.sh`
+
 Windows:
 
 &emsp;open run.bat
