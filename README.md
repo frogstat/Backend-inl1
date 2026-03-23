@@ -2,6 +2,7 @@
 This is a repo for an assignment using JPA and Apache Derby database.
 
 # How to Run
+Ensure you have Maven installed.
 
 Ensure that an Apache Derby database is up and running on localhost:50000
 
@@ -16,5 +17,7 @@ Linux:
 &emsp;`./run.sh`
 
 Windows:
+
+&emsp;Ensure that maven is in your PATH
 
 &emsp;open run.bat
