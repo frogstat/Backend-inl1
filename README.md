@@ -5,9 +5,11 @@ This is a repo for an assignment using JPA and Apache Derby database.
 
 Ensure that an Apache Derby database is up and running on localhost:50000
 
+You can start one by running `./NetworkServerControl -p 50000 start` in your `derby/bin` folder
+
 Linux:
 
-Type the following commands in the project directory.
+&emsp;Type the following commands in the project directory.
 
 &emsp;`chmod u+x run.sh`
 
