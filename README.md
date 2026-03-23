@@ -3,7 +3,7 @@ This is a repo for an assignment using JPA and Apache Derby database.
 
 # How to Run
 
-1. Ensure that an Apache Derby database is up and running on localhost:50000
+Ensure that an Apache Derby database is up and running on localhost:50000
 
 Linux:
 
