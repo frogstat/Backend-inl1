@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Connecting to Derby server...");
+        System.out.println("Connecting to jdbc:derby://localhost:50000/VanyaSamanInl1...");
 
         try (EntityManagerFactory emf = Persistence.createEntityManagerFactory("databaseConfig");
              EntityManager em = emf.createEntityManager()) {
@@ -38,7 +38,7 @@ public class Main {
             }
 
         } catch (ServiceException e) {
-            System.err.println("Could not connect to jdbc:derby://localhost:50000/hibernate\nIs the server active?");
+            System.err.println("Could not connect to jdbc:derby://localhost:50000/VanyaSamanInl1\nIs the server active?");
         } catch (Exception e) {
             System.err.println("Something went wrong!");
             System.err.println(e.getMessage());

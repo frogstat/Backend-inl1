@@ -12,7 +12,7 @@
 
         <properties>
             <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.ClientDriver"/>
-            <property name="hibernate.connection.url" value="jdbc:derby://localhost:50000/hibernate"/>
+            <property name="hibernate.connection.url" value="jdbc:derby://localhost:50000/VanyaSamanInl1;create=true"/>
 
             <property name="hibernate.show_sql" value="false"/>
             <property name="hibernate.format_sql" value="false"/>
