@@ -1,12 +1,14 @@
 # Backendprogrammering Inlämning 1
 This is a repo for an assignment using JPA and Apache Derby database.
 
+This supports Linux and Windows (Powershell).
+
 # How to Run
 Ensure you have Maven installed.
 
 Ensure that an Apache Derby database is up and running on localhost:50000
 
-You can start one by running `./NetworkServerControl -p 50000 start` in your `derby/bin` folder
+You can start one by running `./NetworkServerControl -p 50000 start` in your `derby/bin` folder.
 
 Linux:
 
@@ -16,7 +18,7 @@ Linux:
 
 &emsp;`./run.sh`
 
-Windows:
+Windows (Powershell):
 
 &emsp;Ensure that maven is in your PATH
 
