@@ -1,5 +1,5 @@
 @echo off
 call echo Starting program. Please wait...
-call mvn -q package
+call mvn -q compile
 call mvn -q exec:java
 set /p dummy=Press Enter to exit...
